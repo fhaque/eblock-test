@@ -1,6 +1,8 @@
 # E-block Test
 
-Some notes about developing this:
+I did implement the Lanes Filters feature in the app.
+
+Some other notes about developing this:
 
 - didn’t make the site responsive since it wasn’t a requirement.
 - didn’t include wrapper around whole application since focus wasn’t on responsiveness. A wrapper would help limit the right-aligned content, such as the icon, when using large screens.
