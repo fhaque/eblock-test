@@ -1,3 +1,15 @@
+# E-block Test
+
+Some notes about developing this:
+
+- didn’t make the site responsive since it wasn’t a requirement.
+- didn’t include wrapper around whole application since focus wasn’t on responsiveness. A wrapper would help limit the right-aligned content, such as the icon, when using large screens.
+- Since the Live Lanes main content is only in greyed out form, I just used a single image asset of it rather than constructing it in HTML.
+- The green highlighting of the lanes wasn't clear to me. Didn't include it.
+- With time, could refactor the following obvious things:
+  - look at repeat component code (such as Navigations) and create a factory utility or a more generic component.
+  - Shift CSS typography, sizing, spacing and colour to variables.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,0 +1,29 @@
+.search-bar {
+  position: relative;
+  width: 100%;
+}
+.search-bar__input {
+  width: 100%;
+  padding: 13px;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  color: #c7c8c9;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.search-bar__input::placeholder {
+  color: #c7c8c9;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.search-bar__icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 13px;
+}

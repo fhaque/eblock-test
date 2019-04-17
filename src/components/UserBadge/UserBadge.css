@@ -1,0 +1,22 @@
+.user-badge {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  border: none;
+}
+
+.user-badge__user {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.user-badge__down-triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid rgba(255, 255, 255, 0.8);
+}

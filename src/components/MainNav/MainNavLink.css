@@ -1,0 +1,36 @@
+.main-nav-link {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.main-nav-link.selected::after {
+  content: "";
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.main-nav-link__content {
+  vertical-align: middle;
+  position: relative;
+  top: 1.15px; /* normalized line-height, would be best in variable */
+}
+
+.main-nav-link__icon {
+  margin-right: 16px;
+  width: 13px;
+}

@@ -1,0 +1,27 @@
+.filters-dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgba(36, 41, 47, 0.5);
+  text-transform: uppercase;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.filters-dropdown__label {
+  margin: 0;
+  padding: 0;
+  margin-right: 18px;
+}
+
+.filters-dropdown__down-triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid rgba(36, 41, 47, 0.4);
+}

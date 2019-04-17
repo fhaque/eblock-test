@@ -1,0 +1,57 @@
+.lane-item {
+  padding: 15px 0;
+  border-bottom: 3px solid #edeeef;
+}
+
+.lane-item > .wrapper {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.lane-item__header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lane-item__lane {
+  margin: 0;
+  margin-right: 22px;
+  color: #1abb99;
+  font-size: 13px;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.lane-item__auction {
+  margin: 0;
+  color: rgba(36, 41, 47, 0.5);
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.lane-item__status {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #24292f;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.lane-item__info {
+  margin: 0;
+  color: rgba(36, 41, 47, 0.5);
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.lane-item__watching-info {
+  color: #f6ba5c;
+}

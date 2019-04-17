@@ -1,0 +1,32 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 24px;
+  background-color: #24292f;
+}
+
+.main-nav__left-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-nav__left-content > img {
+  margin-right: 60px;
+}
+
+.main-nav__left-content > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-nav__left-content > ul > li {
+  display: block;
+  padding-right: 45px;
+}

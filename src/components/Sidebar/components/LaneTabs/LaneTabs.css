@@ -1,0 +1,72 @@
+.lane-tabs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.lane-tabs > li:first-child > .lane-tab {
+  padding-left: 0;
+}
+
+.lane-tabs > li:last-child > .lane-tab {
+  padding-right: 0;
+}
+
+.lane-tab {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 13px 0px;
+  color: rgba(36, 41, 47, 0.5);
+  background-color: #ffffff;
+  border: none;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.lane-tab.selected {
+  color: #24292f;
+}
+
+.lane-tab.selected::after {
+  content: "";
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  border-bottom: 2px solid #24292f;
+}
+
+.lane-tab__content {
+  display: block;
+  margin: 0;
+}
+
+.lane-tab__badge {
+  display: block;
+  padding: 2px 5px;
+  margin: 0;
+  margin-left: 6px;
+  border-radius: 5px;
+  background-color: #1bbb9a;
+  color: #ffffff;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.lane-tab__badge--secondary {
+  background-color: #e76f67;
+}

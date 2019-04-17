@@ -1,0 +1,11 @@
+.frame-with-sidebar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.frame-with-sidebar__sidebar {
+  min-width: 313px;
+  width: 313px;
+}

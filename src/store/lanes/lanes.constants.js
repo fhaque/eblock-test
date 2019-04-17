@@ -1,0 +1,15 @@
+export const GET_LANES_SUCCESS = "GET_LANES_SUCCESS";
+export const SET_LANES_FILTER = "SET_LANES_FILTER";
+
+export const LANES_FILTER = {
+  ALL: "ALL",
+  OUTBID: "OUTBID",
+  WATCHING: "WATCHING",
+  WINNING: "WINNING"
+};
+
+export const FILTER_NAME_TO_FIELD_MAP = {
+  [LANES_FILTER.OUTBID]: "isOutbid",
+  [LANES_FILTER.WATCHING]: "isWatching",
+  [LANES_FILTER.WINNING]: "isWinning"
+};

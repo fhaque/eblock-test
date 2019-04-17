@@ -1,0 +1,23 @@
+.sub-nav-link {
+  position: relative;
+  color: rgba(36, 41, 47, 0.5);
+  text-transform: uppercase;
+  font-family: "Proxima Nova - Semibold", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.sub-nav-link.selected {
+  color: #2c8ed9;
+}
+
+.sub-nav-link.selected::after {
+  position: absolute;
+  top: calc(100% + 22px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid #2c8ed9;
+}

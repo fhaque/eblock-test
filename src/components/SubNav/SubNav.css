@@ -1,0 +1,29 @@
+.sub-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 22px 24px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(34, 39, 46, 0.1);
+}
+
+.sub-nav__left-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sub-nav__left-content > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sub-nav__left-content > ul > li {
+  display: block;
+  padding-right: 45px;
+}
